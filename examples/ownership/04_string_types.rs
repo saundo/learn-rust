@@ -133,7 +133,7 @@ fn demonstrate_return_types() {
 // Main Function
 // ============================================================================
 
-fn main() {
+pub fn main() {
     println!("=== String Types ===\n");
 
     println!("1. String vs &str:");

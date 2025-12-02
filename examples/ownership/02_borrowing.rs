@@ -5,6 +5,14 @@
 // 1. Basic Borrowing with &
 // ============================================================================
 
+/// Calculates the length of a string.
+/// 
+/// # Examples
+/// 
+/// ```
+/// let len = calculate_length(&String::from("hello"));
+/// assert_eq!(len, 5);
+/// ```
 fn calculate_length(s: &String) -> usize {
     s.len() // can read the value
     // s is NOT dropped here - we don't own it
@@ -91,7 +99,7 @@ fn demonstrate_dereference() {
 // Main Function
 // ============================================================================
 
-fn main() {
+pub fn main() {
     println!("=== Borrowing (Immutable References) ===\n");
 
     println!("1. Basic Borrowing:");

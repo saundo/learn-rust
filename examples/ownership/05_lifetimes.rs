@@ -136,7 +136,7 @@ fn demonstrate_static() {
 // Main Function
 // ============================================================================
 
-fn main() {
+pub fn main() {
     println!("=== Lifetimes ===\n");
 
     println!("1. Basic Lifetime:");

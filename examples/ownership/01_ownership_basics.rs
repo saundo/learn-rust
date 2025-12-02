@@ -75,7 +75,7 @@ fn demonstrate_scope() {
 // Main Function
 // ============================================================================
 
-fn main() {
+pub fn main() {
     println!("=== Ownership Basics ===\n");
 
     println!("1. Move Semantics:");

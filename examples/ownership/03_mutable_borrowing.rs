@@ -95,7 +95,7 @@ fn demonstrate_return_mut_ref() {
 // Main Function
 // ============================================================================
 
-fn main() {
+pub fn main() {
     println!("=== Mutable Borrowing ===\n");
 
     println!("1. Basic Mutable Borrow:");
